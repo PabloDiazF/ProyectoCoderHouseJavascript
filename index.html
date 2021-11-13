@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Proyecto Final</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="#">EQUIPO</a></li>
+                <li><a href="#">JUGADORES</a></li>
+                <li><a href="#">ESTADISTICAS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form class="form-equipo">
+        <div class="input-group">
+            <label for="jugador1">Jugador N1</label>
+            <input type="text" id="jugador1">
+        </div>
+        <div class="input-group">
+            <label for="jugador2">Jugador N2</label>
+            <input type="text" id="jugador2">
+        </div>
+        <div class="input-group">
+            <label for="jugador3">Jugador N3</label>
+            <input type="text" id="jugador3">
+        </div>
+        <div class="input-group">
+            <label for="jugador4">Jugador N4</label>
+            <input type="text" id="jugador4">
+        </div>
+        <div class="input-group">
+            <label for="jugador5">Jugador N5</label>
+            <input type="text" id="jugador5">
+        </div>
+
+        <button id="btn-enviar-equipo">
+            Enviar Equipo
+        </button>
+
+    </form>
+    <div class="contenedor-boton">
+        <button class="remover-equipo-btn">
+            Remover Equipo
+         </button>
+    </div>
+
+    <div class="contenedor-cancha">
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
