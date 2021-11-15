@@ -5,56 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+
 </head>
 <body>
     <header>
         <nav id="menu">
             <ul>
                 <li><a href="index.html">INICIO</a></li>
-                <li><a href="#">EQUIPO</a></li>
-                <li><a href="#">JUGADORES</a></li>
-                <li><a href="#">ESTADISTICAS</a></li>
+                <li><a href="equipo.html">EQUIPO</a></li>
             </ul>
         </nav>
     </header>
-    <form class="form-equipo">
-        <div class="input-group">
-            <label for="jugador1">Jugador N1</label>
-            <input type="text" id="jugador1">
-        </div>
-        <div class="input-group">
-            <label for="jugador2">Jugador N2</label>
-            <input type="text" id="jugador2">
-        </div>
-        <div class="input-group">
-            <label for="jugador3">Jugador N3</label>
-            <input type="text" id="jugador3">
-        </div>
-        <div class="input-group">
-            <label for="jugador4">Jugador N4</label>
-            <input type="text" id="jugador4">
-        </div>
-        <div class="input-group">
-            <label for="jugador5">Jugador N5</label>
-            <input type="text" id="jugador5">
+
+    <main class="home-main">
+        <h1>El Equipo del Tío</h1>
+
+
+        <div class="img-container">
+            <img src="./imagenes/equipodeltio.jpg" alt="El equipo del tio">
         </div>
 
-        <button id="btn-enviar-equipo">
-            Enviar Equipo
-        </button>
+    </main>
 
-    </form>
-    <div class="contenedor-boton">
-        <button class="remover-equipo-btn">
-            Remover Equipo
-         </button>
-    </div>
+    
+    <footer class="main-footer">
+        <div class="redes-sociales">
+          <a class="icon-container" href="#" target="_blank">
+            <img src="./imagenes/icon-fb.png" alt="logo facebook" />
+          </a>
+          <a class="icon-container" href="https://www.instagram.com/el_equipo_del_tio2020/?hl=es" target="_blank">
+            <img src="./imagenes/icon-insta.png" alt="logo instagram" />
+          </a>
+        </div>
+    </footer>
 
-    <div class="contenedor-cancha">
-    </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="index.js"></script>
 </body>
 </html>

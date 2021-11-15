@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo</title>
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/equipo.css">
+</head>
+<body>
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="equipo.html">EQUIPO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="aside">
+            <h2>Carga de jugadores</h2>
+            <form id="form-carga-jugador">
+                <input id="input-nombre-jugador" type="text" placeholder="Nombre de jugador" required>
+                <select  id="select-posicion-jugador">
+                    <option value="arquero">Arquero</option>
+                    <option value="defensor">Defensor</option>
+                    <option value="volante">Volante</option>
+                    <option value="delantero">Delantero</option>
+                </select>
+                <button type="submit">Cargar jugador</button>
+            </form>
+
+            <h2>Lista de jugadores</h2>
+            <div class="lista-jugadores">
+  
+            </div>
+
+        </div>
+        <div class="contenedor-cancha">
+            <div class="area a1"></div>
+            <div class="area a2"></div>
+            <div class="area a3"></div>
+            <div class="area a4"></div>
+            <div class="area a5"></div>
+            <div class="area b1"></div>
+            <div class="area b2"></div>
+            <div class="area b3"></div>
+            <div class="area b4"></div>
+            <div class="area b5"></div>
+            <div class="area c1"></div>
+            <div class="area c2"></div>
+            <div class="area c3"></div>
+            <div class="area c4"></div>
+            <div class="area c5"></div>
+            <div class="area d1"></div>
+            <div class="area d2"></div>
+            <div class="area d3"></div>
+            <div class="area d4"></div>
+            <div class="area d5"></div>
+            <div class="area e1"></div>
+            <div class="area e2"></div>
+            <div class="area e3"></div>
+            <div class="area e4"></div>
+            <div class="area e5"></div>
+        </div>
+    </main>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/equipo.js"></script>
+</body>
+</html>

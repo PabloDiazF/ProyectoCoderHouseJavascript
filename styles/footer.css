@@ -1,0 +1,40 @@
+.main-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 30vh;
+    background-color: #008080;
+  }
+  
+  .main-footer .redes-sociales {
+    width: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  
+  .main-footer .redes-sociales .icon-container {
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    -webkit-transition: 150ms ease-in-out;
+    transition: 150ms ease-in-out;
+  }
+  
+  .main-footer .redes-sociales .icon-container:hover {
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+  }
+  
+  .main-footer .redes-sociales .icon-container img {
+    width: 100%;
+  }
