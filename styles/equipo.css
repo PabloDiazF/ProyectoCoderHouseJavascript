@@ -57,7 +57,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: .5rem;
-    background-image: url("/imagenes/cancha22.jpg");
+    background-image: url("https://civideportes.com.co/wp-content/uploads/2019/08/medidas-campo-de-futbol.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
